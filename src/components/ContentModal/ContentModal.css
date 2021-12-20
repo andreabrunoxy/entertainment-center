@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
 .content-modal__landscape {
   object-fit: contain;
@@ -36,7 +36,7 @@
   height: 90%;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   justify-content: space-evenly;
   font-weight: 300;
 }

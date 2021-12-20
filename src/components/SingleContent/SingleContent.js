@@ -6,10 +6,7 @@ import './SingleContent.css';
 const SingleContent = ({ poster, title, date, media_type, vote_average, id }) => {
   return (
     <ContentModal media_type={media_type} id={id}>
-      <Badge
-        badgeContent={vote_average}
-        color={vote_average > 6 ? 'primary' : 'secondary'}
-      />
+      <Badge badgeContent={vote_average} color={vote_average > 6 ? 'success' : 'error'} />
       <img
         className="poster"
         src={poster ? `${img_300}/${poster}` : unavailable}

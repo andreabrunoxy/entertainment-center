@@ -4,7 +4,7 @@ const Header = () => {
     <div>
       <a href="!#">
         <span onClick={() => window.scroll(0, 0)} className="header">
-          Entertainment Center
+          Media Center
         </span>
       </a>
     </div>
